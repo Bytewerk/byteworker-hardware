@@ -3502,9 +3502,7 @@ D = Direct mounting &lt;p&gt;
 <part name="R15" library="bytewerk-passive" deviceset="R" device="0603" value="62R"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="bytewerk-passive" deviceset="C" device="0603" value="100n"/>
-<part name="C8" library="bytewerk-passive" deviceset="C" device="0603" value="100n"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="TP1" library="testpad" deviceset="PTR1" device="TP10SQ"/>
 <part name="C3" library="bytewerk-rcl" deviceset="C" device="1206" value="1u/10v"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -4006,12 +4004,10 @@ D = Direct mounting &lt;p&gt;
 <instance part="GND14" gate="1" x="111.76" y="50.8"/>
 <instance part="GND15" gate="1" x="106.68" y="50.8"/>
 <instance part="R20" gate="G$1" x="165.1" y="53.34"/>
-<instance part="IC2" gate="PWR" x="10.16" y="71.12" rot="MR0"/>
-<instance part="GND10" gate="1" x="22.86" y="58.42" rot="MR0"/>
-<instance part="C7" gate="G$1" x="27.94" y="66.04" rot="MR270"/>
-<instance part="C8" gate="G$1" x="33.02" y="66.04" rot="MR270"/>
-<instance part="GND11" gate="1" x="27.94" y="58.42" rot="MR0"/>
-<instance part="GND12" gate="1" x="33.02" y="58.42" rot="MR0"/>
+<instance part="IC2" gate="PWR" x="35.56" y="73.66" rot="MR0"/>
+<instance part="GND10" gate="1" x="48.26" y="60.96" rot="MR0"/>
+<instance part="C7" gate="G$1" x="53.34" y="68.58" rot="MR270"/>
+<instance part="GND11" gate="1" x="53.34" y="60.96" rot="MR0"/>
 <instance part="JUMPER1" gate="G$1" x="175.26" y="91.44" rot="R270"/>
 <instance part="D4" gate="G$1" x="218.44" y="81.28" rot="R180"/>
 <instance part="TP2" gate="G$1" x="116.84" y="63.5" rot="MR0"/>
@@ -4103,19 +4099,14 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <pinref part="IC2" gate="PWR" pin="GND"/>
-<wire x1="20.32" y1="68.58" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="68.58" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="71.12" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="27.94" y1="60.96" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C8" gate="G$1" pin="2"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="33.02" y1="60.96" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="63.5" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -4175,22 +4166,18 @@ D = Direct mounting &lt;p&gt;
 <junction x="231.14" y="81.28"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="PWR" pin="VCC"/>
-<wire x1="20.32" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="71.12" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<junction x="33.02" y="76.2"/>
-<label x="22.86" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="PWR" pin="VIO"/>
-<wire x1="20.32" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="71.12" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
-<junction x="27.94" y="73.66"/>
-<label x="22.86" y="73.66" size="1.778" layer="95"/>
+<wire x1="53.34" y1="73.66" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
+<junction x="53.34" y="76.2"/>
+<pinref part="IC2" gate="PWR" pin="VCC"/>
+<wire x1="45.72" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
+<label x="48.26" y="78.74" size="1.778" layer="95"/>
+<wire x1="53.34" y1="76.2" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<junction x="53.34" y="78.74"/>
 </segment>
 </net>
 <net name="VIN_BUS" class="0">
@@ -4304,8 +4291,8 @@ D = Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <pinref part="IC2" gate="PWR" pin="VBAT"/>
-<wire x1="20.32" y1="78.74" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
-<label x="22.86" y="78.74" size="1.778" layer="95"/>
+<wire x1="45.72" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
+<label x="48.26" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>

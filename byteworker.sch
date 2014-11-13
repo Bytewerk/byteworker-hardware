@@ -3657,13 +3657,13 @@ D = Direct mounting &lt;p&gt;
 <part name="Q1" library="bytewerk-fet" deviceset="BSS138" device=""/>
 <part name="R1" library="bytewerk-rcl" deviceset="R" device="0603" value="10k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="bytewerk-rcl" deviceset="R" device="0603" value="10k"/>
+<part name="R2" library="bytewerk-rcl" deviceset="R" device="0603" value="1k"/>
 <part name="R3" library="bytewerk-rcl" deviceset="R" device="0603" value="dnp"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="Q2" library="bytewerk-fet" deviceset="BSS138" device=""/>
 <part name="R4" library="bytewerk-rcl" deviceset="R" device="0603" value="10k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R5" library="bytewerk-rcl" deviceset="R" device="0603" value="10k"/>
+<part name="R5" library="bytewerk-rcl" deviceset="R" device="0603" value="1k"/>
 <part name="R6" library="bytewerk-rcl" deviceset="R" device="0603" value="dnp"/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="X1" library="bytewerk-crystal" deviceset="CRYSTAL" device="5X3.2" value="16 MHz"/>
@@ -3717,11 +3717,11 @@ D = Direct mounting &lt;p&gt;
 <part name="Q3" library="bytewerk-fet" deviceset="BSS138" device=""/>
 <part name="R9" library="bytewerk-rcl" deviceset="R" device="0603" value="10k"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="bytewerk-rcl" deviceset="R" device="0603" value="10k"/>
+<part name="R10" library="bytewerk-rcl" deviceset="R" device="0603" value="1k"/>
 <part name="R11" library="bytewerk-rcl" deviceset="R" device="0603" value="dnp"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="R21" library="bytewerk-passive" deviceset="R" device="0603" value="n.b.[1k]"/>
-<part name="R22" library="bytewerk-passive" deviceset="R" device="0603" value="n.b.[1k]"/>
+<part name="R21" library="bytewerk-passive" deviceset="R" device="0603" value="1k"/>
+<part name="R22" library="bytewerk-passive" deviceset="R" device="0603" value="1k"/>
 <part name="J2" library="bytewerk-con" deviceset="AVRSPI-6" device="1.27"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X10" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X10" device=""/>

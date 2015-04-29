@@ -2856,7 +2856,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <gate name="9" symbol="F" x="0" y="-20.32" addlevel="always"/>
 </gates>
 <devices>
-<device name="-H9" package="SUBD9">
+<device name="-F_H9" package="SUBD9">
 <connects>
 <connect gate="1" pin="F" pad="1"/>
 <connect gate="2" pin="F" pad="2"/>
@@ -2867,6 +2867,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <connect gate="7" pin="F" pad="7"/>
 <connect gate="8" pin="F" pad="8"/>
 <connect gate="9" pin="F" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-M_H9" package="SUBD9">
+<connects>
+<connect gate="1" pin="F" pad="5"/>
+<connect gate="2" pin="F" pad="4"/>
+<connect gate="3" pin="F" pad="3"/>
+<connect gate="4" pin="F" pad="2"/>
+<connect gate="5" pin="F" pad="1"/>
+<connect gate="6" pin="F" pad="9"/>
+<connect gate="7" pin="F" pad="8"/>
+<connect gate="8" pin="F" pad="7"/>
+<connect gate="9" pin="F" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3213,15 +3229,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="Q4" library="bytewerk-transistor" deviceset="AP2321GN-HF-3TR" device=""/>
-<part name="X3" library="bytewerk-con" deviceset="SUBD" device="-H9"/>
 <part name="D4" library="bytewerk-diode" deviceset="ZENER" device="_PTVS18VP1UP" value="16V"/>
 <part name="U$3" library="bytewerk-symbol" deviceset="GND" device=""/>
+<part name="X2" library="bytewerk-con" deviceset="SUBD" device="-M_H9"/>
 </parts>
 <sheets>
 <sheet>
 <description>Connector</description>
 <plain>
-<text x="137.16" y="137.16" size="1.778" layer="98" align="center-right">7V to 16V</text>
+<text x="185.42" y="137.16" size="1.778" layer="98" align="center-right">7V to 16V</text>
 <text x="190.5" y="99.06" size="1.778" layer="98" rot="R180" align="center-right">7V to 16V</text>
 <text x="71.12" y="142.24" size="1.778" layer="98" align="center-left">max 50mA</text>
 <text x="185.42" y="121.92" size="1.778" layer="98" rot="R180" align="center-right">max 50mA</text>
@@ -3232,24 +3248,24 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="JP1" gate="A" x="132.08" y="109.22" rot="MR180"/>
 <instance part="JP3" gate="A" x="165.1" y="109.22" rot="R180"/>
 <instance part="JP2" gate="A" x="149.86" y="93.98" rot="R90"/>
-<instance part="X3" gate="1" x="157.48" y="157.48"/>
-<instance part="X3" gate="2" x="157.48" y="154.94"/>
-<instance part="X3" gate="3" x="157.48" y="152.4"/>
-<instance part="X3" gate="4" x="157.48" y="149.86"/>
-<instance part="X3" gate="5" x="157.48" y="147.32"/>
-<instance part="X3" gate="6" x="157.48" y="144.78"/>
-<instance part="X3" gate="7" x="157.48" y="142.24"/>
-<instance part="X3" gate="8" x="157.48" y="139.7"/>
-<instance part="X3" gate="9" x="157.48" y="137.16"/>
+<instance part="X2" gate="1" x="205.74" y="157.48"/>
+<instance part="X2" gate="2" x="205.74" y="154.94"/>
+<instance part="X2" gate="3" x="205.74" y="152.4"/>
+<instance part="X2" gate="4" x="205.74" y="149.86"/>
+<instance part="X2" gate="5" x="205.74" y="147.32"/>
+<instance part="X2" gate="6" x="205.74" y="144.78"/>
+<instance part="X2" gate="7" x="205.74" y="142.24"/>
+<instance part="X2" gate="8" x="205.74" y="139.7"/>
+<instance part="X2" gate="9" x="205.74" y="137.16"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VIN_BUS" class="0">
 <segment>
-<pinref part="X3" gate="9" pin="F"/>
-<wire x1="154.94" y1="137.16" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
-<label x="152.4" y="137.16" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="X2" gate="9" pin="F"/>
+<wire x1="200.66" y1="137.16" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
+<label x="200.66" y="137.16" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3269,9 +3285,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="JP2" gate="A" pin="6"/>
 </segment>
 <segment>
-<pinref part="X3" gate="3" pin="F"/>
-<wire x1="154.94" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
-<label x="152.4" y="152.4" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="X2" gate="3" pin="F"/>
+<wire x1="203.2" y1="152.4" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
+<label x="200.66" y="152.4" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="OUT1" class="0">
@@ -3355,9 +3371,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="175.26" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X3" gate="7" pin="F"/>
-<wire x1="154.94" y1="142.24" x2="152.4" y2="142.24" width="0.1524" layer="91"/>
-<label x="152.4" y="142.24" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="X2" gate="7" pin="F"/>
+<wire x1="203.2" y1="142.24" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
+<label x="200.66" y="142.24" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -3367,9 +3383,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="167.64" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="2" pin="F"/>
-<wire x1="154.94" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
-<label x="152.4" y="154.94" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="X2" gate="2" pin="F"/>
+<wire x1="203.2" y1="154.94" x2="200.66" y2="154.94" width="0.1524" layer="91"/>
+<label x="200.66" y="154.94" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="VOUT_SW" class="0">

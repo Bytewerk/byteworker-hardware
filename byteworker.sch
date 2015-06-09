@@ -353,40 +353,35 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="bytewerk-vreg">
 <packages>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0" y="-0.1905" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="SOT89">
-<wire x1="2.3" y1="1.3" x2="2.3" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.3" x2="-2.3" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.3" x2="-2.3" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="1.3" x2="2.3" y2="1.3" width="0.2032" layer="21"/>
-<smd name="1" x="-1.5" y="-1.8" dx="0.58" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.8" dx="0.58" dy="1.2" layer="1"/>
-<smd name="3" x="1.5" y="-1.8" dx="0.58" dy="1.2" layer="1"/>
-<smd name="4" x="0" y="1.3" dx="2" dy="2" layer="1"/>
-<text x="-2.5185" y="-0.9555" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.9905" y="-1.1295" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.915" y1="0.3034" x2="0.915" y2="2.1576" layer="51"/>
-<rectangle x1="-1.74" y1="-2.23" x2="-1.26" y2="-1.27" layer="51"/>
-<rectangle x1="-0.24" y1="-2.23" x2="0.24" y2="-1.27" layer="51"/>
-<rectangle x1="1.26" y1="-2.23" x2="1.74" y2="-1.27" layer="51"/>
+<package name="SOT223">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;</description>
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.473" y1="4.483" x2="3.473" y2="4.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="-4.483" x2="-3.473" y2="-4.483" width="0.0508" layer="39"/>
+<wire x1="-3.473" y1="-4.483" x2="-3.473" y2="4.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="4.483" x2="3.473" y2="-4.483" width="0.0508" layer="39"/>
+<smd name="1" x="-2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="2" x="0" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="3" x="2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
 </package>
 </packages>
 <symbols>
-<symbol name="VREG">
+<symbol name="VREG-5V">
 <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
@@ -397,36 +392,29 @@ DIN A4, landscape with location and doc. field</description>
 <text x="0" y="5.334" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="0" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="VCC" x="10.16" y="2.54" visible="off" length="short" direction="sup" rot="R180"/>
+<pin name="+5V" x="10.16" y="2.54" visible="off" length="short" direction="sup" rot="R180"/>
 <pin name="VIN" x="-10.16" y="2.54" visible="off" length="short" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCP1703" prefix="IC">
+<deviceset name="UA78M05IDCY" prefix="IC">
+<description>&lt;b&gt;Linear Regulator&lt;/b&gt;&lt;p&gt;-Vmax=35V&lt;br/&gt;-Imax=500mA&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="VREG" x="0" y="-1.27"/>
+<gate name="G$1" symbol="VREG-5V" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23-3">
+<device name="" package="SOT223">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="+5V" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="OC_MOUSER" value="579-mcp1703T-3302ECB" constant="no"/>
+<attribute name="MF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MPN" value="UA78M05IDCY" constant="no"/>
+<attribute name="OC_FARNELL" value="1494947" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="SOT-89" package="SOT89">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-<connect gate="G$1" pin="VIN" pad="2 4"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -435,70 +423,6 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="bytewerk-rcl">
 <packages>
-<package name="C0402">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="C0603">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.5" y1="0.6" x2="1.5" y2="0.6" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="0.6" x2="1.5" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="-0.6" x2="-1.5" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="-1.5" y1="-0.6" x2="-1.5" y2="0.6" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="C0805">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
-<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-<package name="C1206">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
@@ -565,16 +489,6 @@ DIN A4, landscape with location and doc. field</description>
 </package>
 </packages>
 <symbols>
-<symbol name="C">
-<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="0.254" size="1.27" layer="95">&gt;NAME</text>
-<text x="0" y="-0.254" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-0.254" x2="1.27" y2="0.254" layer="94" rot="R90"/>
-<rectangle x1="-3.81" y1="-0.254" x2="0.254" y2="0.254" layer="94" rot="R90"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="R">
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
@@ -587,49 +501,6 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C" prefix="C" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0402" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="C0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805" package="C0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206" package="C1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="R" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
@@ -1217,22 +1088,6 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="bytewerk-passive">
 <packages>
-<package name="C0402">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="C0603">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.5" y1="0.6" x2="1.5" y2="0.6" width="0.0508" layer="39"/>
@@ -1394,6 +1249,23 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
 <rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
 <rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
+</package>
+<package name="C0402">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.1524" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -3142,10 +3014,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </classes>
 <parts>
 <part name="UC1" library="bytewerk-uc" deviceset="ATMEGA16M1" device=""/>
-<part name="IC1" library="bytewerk-vreg" deviceset="MCP1703" device="">
-<attribute name="OC_MOUSER" value="579-mcp1703T-5002ECB"/>
-</part>
-<part name="C2" library="bytewerk-rcl" deviceset="C" device="1206" value="1u/25V"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="bytewerk-frames" deviceset="FRAME-A4" device="" value="uC &amp; I/O"/>
@@ -3178,7 +3046,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="bytewerk-passive" deviceset="C" device="0603" value="100n"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="bytewerk-rcl" deviceset="C" device="1206" value="1u/10V"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="Q5" library="bytewerk-fet" deviceset="BSS138" device=""/>
 <part name="R16" library="bytewerk-passive" deviceset="R" device="0603" value="10k"/>
@@ -3214,33 +3081,34 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R10" library="bytewerk-rcl" deviceset="R" device="0603" value="1k"/>
 <part name="R11" library="bytewerk-rcl" deviceset="R" device="0603" value="dnp"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="R21" library="bytewerk-passive" deviceset="R" device="0603" value="1k"/>
 <part name="R22" library="bytewerk-passive" deviceset="R" device="0603" value="1k"/>
 <part name="J2" library="bytewerk-con" deviceset="AVRSPI-6" device="1.27"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X10" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X10" device=""/>
-<part name="LED1" library="bytewerk-led" deviceset="LED0603" device="" value="green"/>
 <part name="U$1" library="bytewerk-symbol" deviceset="GND" device=""/>
 <part name="LED2" library="bytewerk-led" deviceset="LED0603" device="" value="blue"/>
 <part name="C10" library="bytewerk-passive" deviceset="C" device="0603" value="100n"/>
 <part name="D6" library="bytewerk-passive" deviceset="SCHOTTKY" device="323"/>
 <part name="LED3" library="bytewerk-led" deviceset="LED0603" device="" value="red"/>
-<part name="R7" library="bytewerk-passive" deviceset="R" device="0603" value="n.b.[1k]"/>
+<part name="R7" library="bytewerk-passive" deviceset="R" device="0603" value="1k"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="Q4" library="bytewerk-transistor" deviceset="AP2321GN-HF-3TR" device=""/>
 <part name="D4" library="bytewerk-diode" deviceset="ZENER" device="_PTVS18VP1UP" value="16V"/>
 <part name="U$3" library="bytewerk-symbol" deviceset="GND" device=""/>
 <part name="X2" library="bytewerk-con" deviceset="SUBD" device="-M_H9"/>
+<part name="IC3" library="bytewerk-vreg" deviceset="UA78M05IDCY" device=""/>
+<part name="C3" library="bytewerk-passive" deviceset="C" device="0603" value="330n"/>
+<part name="C2" library="bytewerk-passive" deviceset="C" device="0603" value="100n"/>
 </parts>
 <sheets>
 <sheet>
 <description>Connector</description>
 <plain>
-<text x="185.42" y="137.16" size="1.778" layer="98" align="center-right">7V to 16V</text>
-<text x="190.5" y="99.06" size="1.778" layer="98" rot="R180" align="center-right">7V to 16V</text>
-<text x="71.12" y="142.24" size="1.778" layer="98" align="center-left">max 50mA</text>
-<text x="185.42" y="121.92" size="1.778" layer="98" rot="R180" align="center-right">max 50mA</text>
+<text x="185.42" y="137.16" size="1.778" layer="98" align="center-right">7V to 35V</text>
+<text x="190.5" y="99.06" size="1.778" layer="98" rot="R180" align="center-right">7V to 35V</text>
+<text x="71.12" y="142.24" size="1.778" layer="98" align="center-left">max 250mA</text>
+<text x="185.42" y="121.92" size="1.778" layer="98" rot="R180" align="center-right">max 250mA</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -3498,15 +3366,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <sheet>
 <description>Power &amp; CAN</description>
 <plain>
-<text x="231.14" y="149.86" size="1.778" layer="98" align="top-left">max 150 mA</text>
+<text x="231.14" y="149.86" size="1.778" layer="98" align="top-left">max 250mA</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
-<instance part="IC1" gate="G$1" x="213.36" y="137.16"/>
-<instance part="C2" gate="G$1" x="193.04" y="124.46" rot="R270"/>
 <instance part="GND1" gate="1" x="193.04" y="109.22"/>
 <instance part="GND3" gate="1" x="213.36" y="109.22"/>
-<instance part="C3" gate="G$1" x="226.06" y="124.46" rot="R270"/>
 <instance part="GND2" gate="1" x="226.06" y="109.22"/>
 <instance part="Q5" gate="G$1" x="180.34" y="121.92"/>
 <instance part="R16" gate="G$1" x="172.72" y="132.08"/>
@@ -3542,25 +3407,28 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="Q4" gate="G$1" x="185.42" y="137.16" rot="R90"/>
 <instance part="D4" gate="G$1" x="162.56" y="154.94" rot="R180"/>
 <instance part="U$3" gate="G$1" x="170.18" y="149.86"/>
+<instance part="IC3" gate="G$1" x="213.36" y="137.16"/>
+<instance part="C3" gate="G$1" x="193.04" y="124.46" rot="R270"/>
+<instance part="C2" gate="G$1" x="226.06" y="124.46" rot="R270"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="111.76" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="213.36" y1="111.76" x2="213.36" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="226.06" y1="121.92" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="Q5" gate="G$1" pin="S"/>
@@ -3616,11 +3484,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
 <wire x1="223.52" y1="139.7" x2="226.06" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="139.7" x2="226.06" y2="147.32" width="0.1524" layer="91"/>
 <label x="231.14" y="152.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="147.32" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="129.54" x2="226.06" y2="139.7" width="0.1524" layer="91"/>
 <junction x="226.06" y="139.7"/>
@@ -3628,6 +3494,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="226.06" y="147.32"/>
 <pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="218.44" y1="147.32" x2="226.06" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="+5V"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="PWR" pin="VIO"/>
@@ -3656,9 +3524,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="VOUT_SW" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VIN"/>
 <wire x1="190.5" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="139.7" x2="200.66" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="139.7" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="129.54" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
@@ -3674,6 +3540,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="200.66" y1="134.62" x2="200.66" y2="139.7" width="0.1524" layer="91"/>
 <junction x="200.66" y="139.7"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
+<pinref part="IC3" gate="G$1" pin="VIN"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VIN_RECT" class="0">
@@ -3913,9 +3781,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R10" gate="G$1" x="129.54" y="144.78" rot="MR180"/>
 <instance part="R11" gate="G$1" x="129.54" y="149.86" rot="MR180"/>
 <instance part="P+3" gate="1" x="144.78" y="144.78" rot="MR90"/>
-<instance part="R21" gate="G$1" x="119.38" y="53.34" rot="MR180"/>
 <instance part="R22" gate="G$1" x="119.38" y="48.26" rot="MR180"/>
-<instance part="LED1" gate="G$1" x="129.54" y="53.34"/>
 <instance part="U$1" gate="G$1" x="142.24" y="43.18"/>
 <instance part="LED2" gate="G$1" x="129.54" y="48.26"/>
 <instance part="C10" gate="G$1" x="180.34" y="81.28" rot="R180"/>
@@ -4008,14 +3874,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="132.08" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="132.08" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="142.24" y1="53.34" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="48.26" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="48.26" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
-<junction x="142.24" y="48.26"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -4366,15 +4228,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="33.02" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TESTLED1" class="0">
-<segment>
-<pinref part="UC1" gate="PORTC" pin="(AMP1+/ACMP3/ADC9)PC5"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="53.34" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="TESTLED2" class="0">
 <segment>
 <pinref part="UC1" gate="PORTC" pin="(ADC10/ACMP1)PC6"/>
@@ -4388,13 +4241,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="UC1" gate="PORTD" pin="(PSCOUT0A)PD0"/>
 <wire x1="58.42" y1="33.02" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
 <label x="71.12" y="33.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="127" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">

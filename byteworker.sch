@@ -3100,6 +3100,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="IC3" library="bytewerk-vreg" deviceset="UA78M05IDCY" device=""/>
 <part name="C3" library="bytewerk-passive" deviceset="C" device="0603" value="330n"/>
 <part name="C2" library="bytewerk-passive" deviceset="C" device="0603" value="100n"/>
+<part name="R21" library="bytewerk-passive" deviceset="R" device="0603" value="1k"/>
+<part name="LED1" library="bytewerk-led" deviceset="LED0603" device="" value="red"/>
 </parts>
 <sheets>
 <sheet>
@@ -3785,6 +3787,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="U$1" gate="G$1" x="142.24" y="43.18"/>
 <instance part="LED2" gate="G$1" x="129.54" y="48.26"/>
 <instance part="C10" gate="G$1" x="180.34" y="81.28" rot="R180"/>
+<instance part="R21" gate="G$1" x="132.08" y="53.34" rot="MR180"/>
+<instance part="LED1" gate="G$1" x="119.38" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -3878,6 +3882,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="48.26" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="48.26" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="53.34" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
+<junction x="142.24" y="48.26"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -4255,6 +4263,23 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="UC1" gate="PORTC" pin="(ADC8/AMP1-/ACMPN3)PC4"/>
 <wire x1="58.42" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <label x="78.74" y="53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="UC1" gate="PORTC" pin="(AMP1+/ACMP3/ADC9)PC5"/>
+<wire x1="58.42" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="53.34" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="111.76" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

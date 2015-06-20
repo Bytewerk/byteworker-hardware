@@ -2,6 +2,7 @@ set confirm yes; # yes, we know there will be no forward-/back-annotation
 edit byteworker_nutzen.brd;
 set confirm off;
 
+use bytewerk-symbol;
 
 ##############################################
 # Load layer setup first to not break pastes #

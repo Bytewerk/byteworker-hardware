@@ -1,0 +1,53 @@
+set confirm yes; # yes, we know there will be no forward-/back-annotation
+edit byteworker_nutzen.brd;
+set confirm off;
+
+
+##############################################
+# Load layer setup first to not break pastes #
+##############################################
+drc load pro-2layer-cheap.dru
+
+# setup grid
+grid mm;
+grid on dots 1.0;
+display all;
+
+# place boards
+paste 100 byteworker.brd R270 ( 17  17)
+paste 100 byteworker.brd R180 ( 17 -17)
+paste 100 byteworker.brd R90  (-17 -17)
+paste 100 byteworker.brd      (-17  17)
+
+# draw nutzen borders
+#layer 20 # dimension
+#set wire_bend 2 # draw line directly point to point
+#wire 0 ( 0  0) (-5  0);
+
+# add measures
+set size 3
+layer 47 # measures
+
+#                    (pointA) (pointB) (<ignored> <Arrow_Y_coordinate>)
+dimension horizontal (-34 34) (0  28)   (0 45)  # single width
+dimension horizontal (-34 34) (34 34)   (0 50)  # nutzen width
+dimension vertical   (-34 34) (-28 0)   (-45 0) # single height
+dimension vertical   (-34 34) (-34 -34) (-50 0) # single height
+
+# Fraes/Ritz-Markierungen
+add mill-marker       ( 35  26)
+add mill-marker R270  ( 26 -35)
+add mill-marker R180  (-35 -26)
+add mill-marker R90   (-26  35)
+
+add scratch-marker      ( 29  0 )
+add scratch-marker R270 ( 0  -29)
+
+# hide useless layers
+display none
+
+# show useful layers
+display 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+display vias pads unrouted dimension tPlace bPlace tOrigins bOrigins
+display tStop bStop tKeepout bKeepout tRestrict bRestrict vRestrict holes milling measures document tDocu bDocu
+#display reference
